@@ -111,7 +111,7 @@ span{
     padding-left: 20px;
 }
 .content{
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.674),rgba(0, 0, 0, 0.677),rgba(0, 0, 0, 0.785)), url(./images/man.jpeg);
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.674),rgba(0, 0, 0, 0.677),rgba(0, 0, 0, 0.785)), url(images/man.jpeg);
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
