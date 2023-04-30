@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgb(37, 37, 99);
+    margin: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+     
+
+}
+nav ul{
+    display: flex;
+    justify-items:left;
+    list-style: none;
+    padding: 15px;
+
+
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff ;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: rgb(37, 37, 99);
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 3px;
+
+
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(37, 37, 99);
+    padding-top:20px;
+    border-radius: 0px  0px  5px  5px ;
+     
+     
+
+}
+nav ul li:hover ul{
+    display: block;
+     
+     
+
+}
+
+nav ul li ul li {
+    border-radius: 10px;
+    
+    
+     
+}
+
+nav ul li ul li a{
+    padding: 8px 14px;
+     
+     
+}
+nav ul li ul li a:hover{
+     background-color: #ff9100;
+     
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-left: 30px;
+    
+     
+    
+}
+.logo h2{
+    font-size: 18px;
+     
+}
+.logo p{
+    font-size: 10px;
+    color: rgb(77, 76, 75);
+}
+.contact{
+     display: flex;
+    justify-content: right;
+    
+
+}
+.contact li{
+    list-style: none;
+    margin-right: 40px;
+    font-style: normal;
+     
+}
+span{
+    color: black;
+    font-style: normal;
+    padding-left: 7px;
+    font-size: 12px;
+}
+.email{
+    color: rgb(52, 49, 49);
+    font-size: 7px;
+    padding-left: 20px;
+}
+.content{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.674),rgba(0, 0, 0, 0.677),rgba(0, 0, 0, 0.785)), url(man.jpeg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+
+}
+.content h1{
+    padding-left: 30px;
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 3.7em;
+    overflow:hidden;
+
+}
+.content p{
+    margin: 30px;
+    font-size: 15px;
+     
+    color: #fff;
+}
+
+.btn{
+    padding: 30px;
+     
+
+}
+button{
+    border: none;
+     
+}
+.btn button a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 99);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+     
+
+}
+#ankor{
+    color: black;
+}
+.btn button #ankor{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+     
+}
